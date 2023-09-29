@@ -1,0 +1,8 @@
+<h1>Hello, <%= @order.customer.email %></h1>
+<p>
+  You have an unpaid order,
+  your order balance due is: <%= number_to_currency @order.amount %>
+</p>
+<p>
+  Please pay the amount due ASAP.
+</p>

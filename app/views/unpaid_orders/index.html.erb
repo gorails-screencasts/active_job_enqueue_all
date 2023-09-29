@@ -1,0 +1,13 @@
+<% if flash[:notice] %>
+  <div>
+    <%= flash[:notice] %>
+  </div>
+<% end %>
+
+<% @unpaid_orders.each do |order| %>
+  <article>
+    <h4><%= order.customer.email %></h4>
+    <p><%= number_to_currency order.amount %></p>
+  </article>
+  <hr>
+<% end %>

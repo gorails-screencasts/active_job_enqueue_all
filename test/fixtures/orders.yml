@@ -1,0 +1,26 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  amount: 9000.00
+  status: 0
+  customer: one
+
+two:
+  amount: 5000.00
+  status: 0
+  customer: two
+
+three:
+  amount: 2000.00
+  status: 0
+  customer: two
+
+four:
+  amount: 1000.00
+  status: 0
+  customer: two
+
+five:
+  amount: 7000.00
+  status: 0
+  customer: two

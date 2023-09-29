@@ -1,0 +1,2 @@
+module UnpaidOrders::NotificationsHelper
+end
