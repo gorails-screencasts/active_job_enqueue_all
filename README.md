@@ -4,9 +4,9 @@
 2. Change into the repository directory.
 3. Run `bundle install`.
 4. Run `bin/rails db:migrate` and `bin/rails db:seed`.
-5. Run the provided test located at `test/integration/unpaid_order_notification_test.rb` with
-   the following command: `bin/rails test test/integration/unpaid_order_notification_test.rb:4`
-6. Work through the test failures. In order to do so you'll need to implement a number of items including:
+5. Open the provided test in your code editor that is located at `test/integration/unpaid_order_notification_test.rb`.
+6. Run the test with the following command: `bin/rails test test/integration/unpaid_order_notification_test.rb:4`.
+7. Work through the test failures. In order to do so you'll need to implement a number of items including:
     - Routes
     - HTML markup
     - A form that submits to the proper path
