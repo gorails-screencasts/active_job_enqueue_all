@@ -1,7 +1,7 @@
 # README
 
-1. Clone this repository.
-2. Change into the repository directory.
+1. Clone this repository by running: `git clone git@github.com:gorails-screencasts/active_job_enqueue_all.git`
+2. Change into the repository directory by running: `cd active_job_enqueue_all`
 3. Run `bundle install`.
 4. Run `bin/rails db:migrate` and `bin/rails db:seed`.
 5. Open the provided test in your code editor that is located at `test/integration/unpaid_order_notification_test.rb`.
