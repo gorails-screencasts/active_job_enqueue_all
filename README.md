@@ -1,8 +1,8 @@
 # README
 
 1. Clone this repository by running one of the following:
-    - If using HTTPS: `git clone https://github.com/gorails-screencasts/active_job_enqueue_all.git`
     - If using SSH: `git clone git@github.com:gorails-screencasts/active_job_enqueue_all.git`
+    - If using HTTPS: `git clone https://github.com/gorails-screencasts/active_job_enqueue_all.git`
 2. Change into the repository directory by running: `cd active_job_enqueue_all`
 3. Run `bundle install`.
 4. Run `bin/rails db:migrate` and `bin/rails db:seed`.
